@@ -12,11 +12,15 @@ Here, the risk free rate is the yield to maturity on the 10-Year US Treasury, bu
 
 Within MATLAB this function can be used to produce an output consisting of the market rate of return (Rm),
 
+```
 x = Rm(spx,cf0,est,Rf,1);
+```
 
 or a table summarizing the market rate of return, the risk free rate, and the equity risk premium (Rm-Rf),
 
+```
 x = Rm(spx,cf0,est,Rf,2);
+```
 
 where, depending on the final argument of the function, the mode variable, we can produce either only Rm or the
 results table. The default setting consists of an output of just Rm.
